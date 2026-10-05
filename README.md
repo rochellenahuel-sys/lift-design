@@ -2,7 +2,7 @@
 
 Skill operativa para producir contenido de Comunidad LIFT: voz, cultura, aplicación a problemas reales, diseño, animación y validación editorial de Nahuel.
 
-**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.0.1**.
+**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.1.0**.
 
 ## Usar en el Codex de Leandro
 
@@ -29,6 +29,7 @@ Si el entorno todavía no descubre la skill, se puede indicar la ruta al `SKILL.
 - Aplica voz, tipografía, espaciado y movimiento de LIFT.
 - Produce y revisa los entregables pedidos con las herramientas disponibles.
 - Deja una versión identificada para Nahuel. No autoaprueba ni publica por defecto.
+- Documenta las correcciones que aportan criterio y consulta antecedentes pertinentes para evitar repetir problemas de diseño o comunicación.
 
 La skill son instrucciones para el agente. No instala renderizadores, no concede accesos y no constituye por sí sola un bloqueo técnico dentro de una herramienta externa de publicación.
 
@@ -43,6 +44,12 @@ La skill son instrucciones para el agente. No instala renderizadores, no concede
 - Cambiar reglas o recursos requeridos: versión menor; aclaraciones compatibles: parche; cambios incompatibles de integración: versión mayor.
 
 Las actualizaciones se distribuyen desde el repo. No hay una sincronización automática instalada en el equipo de Leandro.
+
+## Refinar la skill con las correcciones
+
+El [registro de decisiones editoriales](skills/lift-content-production/references/decisiones-editoriales.md) explica qué cambió, por qué y con qué alcance. Incluye antecedentes documentados de Frenado, Clustering, VAM y RSI/DRI.
+
+En cada pieza, el agente registra las correcciones relevantes en sus notas locales. Los criterios generales se consolidan en este repo cuando el encargo y los permisos lo permiten, conservando su respaldo y actualizando la regla normativa correspondiente. Una instalación por copia o un acceso de lectura permite documentar propuestas; no sincroniza ni publica cambios en GitHub. Las decisiones particulares no se vuelven universales por repetirse y el registro no aprueba posteos.
 
 ## Mantener el repositorio
 
@@ -62,6 +69,7 @@ El control comprueba estructura, versión, referencias y ausencia de rutas local
 - [Aplicación a problemas de trabajo](skills/lift-content-production/references/aplicacion-y-ejemplos.md)
 - [Caso anotado: VAM y acciones de juego](skills/lift-content-production/references/caso-vam.md)
 - [Caso anotado: RSI/DRI y componentes del puntaje](skills/lift-content-production/references/caso-rsi-dri.md)
+- [Registro de decisiones y correcciones](skills/lift-content-production/references/decisiones-editoriales.md)
 - [Validación de Nahuel](skills/lift-content-production/references/validacion.md)
 
 Repositorio de trabajo del equipo LIFT. No subir registros privados de atletas, credenciales, conversaciones o archivos ajenos a la producción de esta skill.

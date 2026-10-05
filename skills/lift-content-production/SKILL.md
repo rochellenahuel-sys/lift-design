@@ -5,7 +5,7 @@ description: Crear, editar y revisar contenido de Comunidad LIFT a partir de blo
 
 # LIFT · Producción de contenido
 
-Versión 1.0.1 · 5 de octubre de 2026
+Versión 1.1.0 · 5 de octubre de 2026
 
 Estas instrucciones gobiernan la producción de contenido de LIFT. Aplicarlas al encargo recibido para entregar una pieza terminada, fiel a su fuente y vinculada con una situación profesional comprensible.
 
@@ -85,6 +85,8 @@ Evaluar la aplicación con recursos acotados y con registros más completos. Ele
 - No convertir una ilustración en prescripción individual ni conclusión universal sobre un deporte.
 
 Consultar [aplicación y ejemplos](references/aplicacion-y-ejemplos.md) al elegir el problema. Allí se enlazan casos anotados de VAM y RSI/DRI: leer el pertinente para calibrar enfoque, composición y movimiento. Son referencias de razonamiento, no conclusiones ni secuencias obligatorias para copiar.
+
+Al elegir enfoque o componer, consultar el índice del [registro de decisiones editoriales](references/decisiones-editoriales.md) y leer las entradas pertinentes. Aplicar los criterios generales vigentes; usar los antecedentes locales para comprender su motivo, sin convertirlos en reglas para otra pieza. No cargar todo el historial por rutina.
 
 ### Fidelidad y evidencia
 
@@ -175,4 +177,4 @@ Aunque haya aprobación editorial, publicar/programar solo si el encargo autoriz
 
 Entregar enlaces reales, resumir qué explica la pieza y señalar pendientes materiales. Indicar si falta validación. No presentar una propuesta de sistema, ideas o guion como si fueran el carrusel terminado.
 
-Ante una corrección, explicar el cambio y actualizar la versión revisable. Mantener historial sin imponer al usuario revisiones intermedias que no pidió.
+Ante una corrección, explicar el cambio y actualizar la versión revisable. Si aporta un criterio reutilizable, registrar antes, después, motivo, alcance y comprobación en las notas de la pieza siguiendo el [registro de decisiones](references/decisiones-editoriales.md). Vincular entradas existentes antes de crear otras y distinguir una decisión local de una propuesta general. Consolidar en la skill los cambios generales respaldados, dentro del encargo y los permisos disponibles; documentar una propuesta no exige detener la producción ni pedir aprobación intermedia. Mantener historial y la validación final de Nahuel.

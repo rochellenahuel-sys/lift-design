@@ -1,5 +1,13 @@
 # Cambios
 
+## 1.1.0 · 2026-10-05
+
+- Registro inicial de once correcciones documentadas: antes/después, motivo, alcance, evidencia y forma de comprobarlas.
+- Consulta por tema y distinción entre criterios generales vigentes, antecedentes locales y propuestas todavía sin confirmar.
+- Flujo para registrar nuevas correcciones con cada pieza, reutilizar IDs y consolidar mejoras en la fuente normativa sin duplicar reglas.
+- Integración con la entrega para Nahuel; separación entre confirmar un criterio y aprobar un paquete para publicación.
+- Conservación local de mensajes y aprobaciones; el repositorio público recibe criterios resumidos y referencias portables.
+
 ## 1.0.1 · 2026-10-05
 
 - Dos casos anotados basados en los carruseles VAM v4.8 y RSI/DRI v1.0.
