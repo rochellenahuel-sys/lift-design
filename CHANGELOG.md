@@ -1,5 +1,13 @@
 # Cambios
 
+## 1.2.0 · 2026-10-05
+
+- Ficha editorial con lector, conocimientos de partida, pregunta de comprensión y respuesta esperada, reutilizando los campos existentes.
+- Guía para convertir el aprendizaje en observaciones de texto, gráficos y movimiento, con ejemplos de RSI, VAM y Clustering.
+- Revisión que localiza los pasos del argumento y orienta correcciones de diseño, secuencia y ritmo.
+- Distinción entre revisión interna y prueba opcional con lector; sin nuevas aprobaciones intermedias ni cuestionarios obligatorios.
+- Refinamiento de D005 desde una prueba de guion: la guía pedagógica conserva video para demostraciones visuales e imagen para lectura, según el formato vigente de LIFT.
+
 ## 1.1.0 · 2026-10-05
 
 - Registro inicial de once correcciones documentadas: antes/después, motivo, alcance, evidencia y forma de comprobarlas.

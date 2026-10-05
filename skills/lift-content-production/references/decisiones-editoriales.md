@@ -97,6 +97,7 @@ Las rutas de manual y carruseles se resuelven desde `identity_root`. Los enlaces
 - **Motivo / base:** Nahuel pidió que se reconozca el video y que la animación acompañe la lectura. El movimiento orienta y explica; no agrega una espera decorativa ni sustituye tiempo de interpretación.
 - **Aplicar / comprobar:** revisar apertura, cambios de fase y cierre sin audio a tamaño móvil. Seguir los umbrales de [Movimiento](diseno-y-movimiento.md#movimiento), conservar pausas útiles y eliminar esperas vacías; no acelerar todo el MP4. El título puede permanecer si deja espacio y una imagen editorial no necesita animarse.
 - **Evidencia:** manual, «EL VIDEO SE RECONOCE AL EMPEZAR», «TIEMPO PARA ENTENDER» y «ACORTAR LA ESPERA, CONSERVAR LA LECTURA». La estimación de palabras por segundo y las duraciones de Clustering v1.6 no acreditan comprensión probada ni fijan la duración de otras piezas.
+- **Refinamiento en 1.2.0:** una prueba aislada del guion de impulso propuso únicamente escenas estáticas al seguir una alternativa de la nueva guía pedagógica. Se corrigió [comprensión y secuencia](comprension-y-secuencia.md) para conservar la regla vigente: video cuando conduce la demostración visual, imagen cuando predomina lectura, salvo otro formato explícitamente pedido. Es una comprobación de comportamiento del agente; no una prueba con público ni una corrección atribuida a Nahuel.
 
 ### D006
 
@@ -122,7 +123,7 @@ Las rutas de manual y carruseles se resuelven desde `identity_root`. Los enlaces
 
 - **Antes → después:** el guion de Clustering mostraba K-means con K = 3 antes de explicar la elección de K. La secuencia vigente define K como cantidad de grupos y compara dos y tres grupos antes de construir el algoritmo.
 - **Motivo / base:** la consulta de Nahuel sobre K expuso un salto conceptual: distinguir lo que el analista elige de lo que el método calcula exige conocer la función del parámetro.
-- **Aplicar / comprobar:** cuando un término sea necesario para seguir una operación, comprobar que nombre y función estén disponibles. No exigir una slide por cada sigla ni trasladar los 24 casos o K = 2/3 a todos los temas. Una portada puede anticipar el término con una comparación comprensible.
+- **Aplicar / comprobar:** cuando un término sea necesario para seguir una operación, comprobar que nombre y función estén disponibles. No exigir una slide por cada sigla ni trasladar los 24 casos o K = 2/3 a todos los temas. Una portada puede anticipar el término con una comparación comprensible. Usar [comprensión y secuencia](comprension-y-secuencia.md) para explicitar qué conceptos puede asumir el encargo y qué respuesta deben permitir construir.
 - **Norma / evidencia:** [Escribir](../SKILL.md#escribir); manual, «DEFINIR ANTES DE USAR»; `carrusel-clustering/v1/qa/archivo/antes-definir-k/Guion.md`, escenas 08–09, frente a `carrusel-clustering/v1/Guion.md`, escenas 11–12. Elegir K no demuestra tipos biológicos ni que ese K sea óptimo.
 
 ### D009
@@ -131,7 +132,7 @@ Las rutas de manual y carruseles se resuelven desde `identity_root`. Los enlaces
 
 - **Antes → después:** la secuencia pasaba de «las unidades pesan» a restar media/dividir por desvío. Se amplió a problema de distancia, cambio cm/mm, referencia por desvío y comprobación de lo que se conserva al estandarizar.
 - **Motivo / base:** Nahuel pidió entender por qué pesaban las unidades y cuál era el beneficio de escalar. Explicar una receta sin mostrar el problema permite ejecutarla sin construir criterio.
-- **Aplicar / comprobar:** si se propone normalizar, calcular o usar un índice, mostrar qué dificultad resuelve y comprobarlo con casos conservados. En este ejemplo, distinguir valor z de diferencia entre valores z; no afirmar que estandarizar reparte importancia fisiológica por igual.
+- **Aplicar / comprobar:** si se propone normalizar, calcular o usar un índice, mostrar qué dificultad resuelve y comprobarlo con casos conservados. En este ejemplo, distinguir valor z de diferencia entre valores z; no afirmar que estandarizar reparte importancia fisiológica por igual. Relacionar ese beneficio con la pregunta y la respuesta esperada según [comprensión y secuencia](comprension-y-secuencia.md); es revisión del argumento, no prueba de comprensión ya realizada.
 - **Norma / evidencia:** [Escribir](../SKILL.md#escribir) y [Construir la secuencia](../SKILL.md#4-construir-la-secuencia); `carrusel-clustering/v1/qa/archivo/antes-beneficio-escala-v1.3/Guion.md`, escenas 06–07; `carrusel-clustering/v1/Guion.md`, «Regla de lectura de las escenas 07–10»; `carrusel-clustering/v1/Notas-y-fuentes.md`, «Por qué las unidades pesan y qué mejora al estandarizar». Las cuatro etapas son una solución local, no una secuencia obligatoria para cualquier operación.
 
 ### D010

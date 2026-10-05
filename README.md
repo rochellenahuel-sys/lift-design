@@ -2,7 +2,7 @@
 
 Skill operativa para producir contenido de Comunidad LIFT: voz, cultura, aplicación a problemas reales, diseño, animación y validación editorial de Nahuel.
 
-**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.1.0**.
+**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.2.0**.
 
 ## Usar en el Codex de Leandro
 
@@ -26,6 +26,7 @@ Si el entorno todavía no descubre la skill, se puede indicar la ruta al `SKILL.
 - Lee el blog y conserva sus afirmaciones, condiciones y fuentes.
 - Conecta la temática con una situación de trabajo y recursos concretos, desde amateur hasta profesional.
 - Construye una secuencia que enseña sin repetir ni sobrecargar.
+- Define el lector y sus conocimientos de partida; vincula una pregunta de comprensión con las observaciones que texto, gráfico y movimiento deben construir.
 - Aplica voz, tipografía, espaciado y movimiento de LIFT.
 - Produce y revisa los entregables pedidos con las herramientas disponibles.
 - Deja una versión identificada para Nahuel. No autoaprueba ni publica por defecto.
@@ -67,6 +68,7 @@ El control comprueba estructura, versión, referencias y ausencia de rutas local
 - [Vincular la identidad existente](skills/lift-content-production/references/identidad-existente.md)
 - [Diseño y movimiento](skills/lift-content-production/references/diseno-y-movimiento.md)
 - [Aplicación a problemas de trabajo](skills/lift-content-production/references/aplicacion-y-ejemplos.md)
+- [Comprensión, diseño y revisión](skills/lift-content-production/references/comprension-y-secuencia.md)
 - [Caso anotado: VAM y acciones de juego](skills/lift-content-production/references/caso-vam.md)
 - [Caso anotado: RSI/DRI y componentes del puntaje](skills/lift-content-production/references/caso-rsi-dri.md)
 - [Registro de decisiones y correcciones](skills/lift-content-production/references/decisiones-editoriales.md)

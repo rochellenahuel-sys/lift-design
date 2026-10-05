@@ -5,7 +5,7 @@ description: Crear, editar y revisar contenido de Comunidad LIFT a partir de blo
 
 # LIFT · Producción de contenido
 
-Versión 1.1.0 · 5 de octubre de 2026
+Versión 1.2.0 · 5 de octubre de 2026
 
 Estas instrucciones gobiernan la producción de contenido de LIFT. Aplicarlas al encargo recibido para entregar una pieza terminada, fiel a su fuente y vinculada con una situación profesional comprensible.
 
@@ -65,13 +65,16 @@ Preparar una ficha breve, ya resuelta, con:
 
 1. **Fuente:** título, autor, URL/archivo, fecha de consulta y secciones usadas.
 2. **Idea central:** una frase fiel al artículo.
-3. **Pregunta de esta pieza:** qué aspecto explicará la secuencia.
-4. **Situación:** quién tiene el problema, en qué tarea aparece y qué dificultad enfrenta.
-5. **Recursos:** datos, instrumentos y procedimientos necesarios; qué está disponible y qué falta.
-6. **Aprendizaje:** qué relación podrá explicar el lector al terminar.
-7. **Aplicación:** qué comparación, interpretación o decisión puede revisar.
-8. **Límite:** qué no permite concluir el ejemplo.
-9. **CTA:** acción y destino.
+3. **Pregunta de comprensión:** pregunta concreta que el desarrollo debe dejar resuelta; es un control interno, no necesariamente el título público.
+4. **Lector y situación:** quién tiene el problema, en qué tarea aparece y qué dificultad enfrenta.
+5. **Punto de partida:** conceptos que puede conocer y conceptos que la pieza debe construir; indicar si surge del encargo o es un supuesto editorial.
+6. **Recursos:** datos, instrumentos y procedimientos necesarios; qué está disponible y qué falta.
+7. **Aprendizaje:** respuesta esperada en lenguaje claro, proporcionada a la fuente, y escenas que la construyen. Es una intención editorial, no comprensión ya demostrada.
+8. **Aplicación:** qué comparación, interpretación o decisión puede revisar.
+9. **Límite:** qué no permite concluir el ejemplo.
+10. **CTA:** acción y destino.
+
+Resolver estos campos dentro de la ficha existente, sin duplicarla ni convertirlos en un cuestionario obligatorio. No deducir conocimientos por nivel competitivo, profesión o instrumentos. Cuando el encargo no precise audiencia, declarar un supuesto razonable y producir; consultar solo si esa incertidumbre cambia materialmente la explicación. Usar [comprensión y secuencia](references/comprension-y-secuencia.md) para conectar respuesta esperada, diseño y revisión.
 
 No aceptar «mejorar rendimiento» o «tomar mejores decisiones» como única aplicación. Concretar: revisar si cambió el atleta o su referencia, entender qué componente produjo un índice o relacionar velocidad y contexto de juego.
 
@@ -113,6 +116,8 @@ Elegir un hook demostrable: contraste entre resultados, situación reconocible o
 
 Para un carrusel completo, guionar cada escena con: número, pregunta que resuelve, título, texto final, visual, variables/unidades, qué cambia, qué permanece, condición esencial, fuente, formato y tiempos por fase. En un encargo de secuencia o copy, completar solo los campos pertinentes, sin inventar un render o cronograma definitivo. Usar unas 30 palabras o tres líneas como guía por explicación; recomponer o dividir si hay sobrecarga. No quitar condiciones para cumplir esa guía.
 
+Identificar qué debe observar el lector para responder la pregunta de comprensión y dónde lo muestra la pieza. Distribuir esas observaciones en las escenas ya guionadas: qué aporta el texto, qué hace visible el gráfico y qué relación revela el movimiento. Si falta un paso, corregirlo; no completar la explicación con más jerga ni repetir la conclusión en varias láminas.
+
 ## 5. Diseñar y animar
 
 Antes de crear o editar medios, leer y aplicar [diseño y movimiento](references/diseno-y-movimiento.md): recursos exactos, medidas, espacios, animación y exportación.
@@ -146,7 +151,7 @@ Producir historias o adaptaciones solo si se solicitaron. Recomponer una histori
 
 Revisar lo exportado:
 
-1. Correspondencia entre fuente, guion, valores dibujados, caption y cierre.
+1. Correspondencia entre fuente, guion, valores dibujados, caption y cierre; localizar en la pieza las observaciones que permiten construir la respuesta esperada, sin depender de explicaciones del autor.
 2. Tipografía, glifos, espacios y límites visibles en los estados relevantes.
 3. Lectura a 360 px sin zoom ni audio; apertura, cambios de fase, estado más cargado y final.
 4. Decodificación o reproducción completa de MP4; dimensiones, duración y orden del paquete.
@@ -161,7 +166,7 @@ Entregar el paquete con estado **PENDIENTE DE VALIDACIÓN DE NAHUEL** y una fich
 Su revisión verifica:
 
 1. **Blog:** fidelidad a la idea, condiciones y correcciones documentadas.
-2. **Temática:** conceptos y razonamiento comprensibles.
+2. **Temática:** conceptos y razonamiento adecuados al lector definido; respuesta esperada sustentada por la secuencia y límites visibles. Distinguir esta revisión de una prueba real con lectores.
 3. **Práctica:** problema real y recursos disponibles/necesarios, desde amateur hasta profesional.
 4. **Interpretación:** decisión que ayuda a revisar, proporcionada a la información.
 5. **Marca:** voz, cultura, estética, espacio y movimiento LIFT.
