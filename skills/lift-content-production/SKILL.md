@@ -109,7 +109,7 @@ Definir cantidad después de distribuir la explicación. No forzar 5, 11, 14 o 1
 
 Elegir un hook demostrable: contraste entre resultados, situación reconocible o efecto de una variable. Si se vuelve a la portada, conservar casos, valores, escalas y encuadre: cambia la comprensión, no la evidencia.
 
-Guionar cada escena con: número, pregunta que resuelve, título, texto final, visual, variables/unidades, qué cambia, qué permanece, condición esencial, fuente, formato y tiempos por fase. Usar unas 30 palabras o tres líneas como guía por explicación; recomponer o dividir si hay sobrecarga. No quitar condiciones para cumplir esa guía.
+Para un carrusel completo, guionar cada escena con: número, pregunta que resuelve, título, texto final, visual, variables/unidades, qué cambia, qué permanece, condición esencial, fuente, formato y tiempos por fase. En un encargo de secuencia o copy, completar solo los campos pertinentes, sin inventar un render o cronograma definitivo. Usar unas 30 palabras o tres líneas como guía por explicación; recomponer o dividir si hay sobrecarga. No quitar condiciones para cumplir esa guía.
 
 ## 5. Diseñar y animar
 
