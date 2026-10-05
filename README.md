@@ -2,7 +2,7 @@
 
 Skill operativa para producir contenido de Comunidad LIFT: voz, cultura, aplicación a problemas reales, diseño, animación y validación editorial de Nahuel.
 
-**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable inicial: **1.0.0**.
+**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.0.1**.
 
 ## Usar en el Codex de Leandro
 
@@ -60,6 +60,8 @@ El control comprueba estructura, versión, referencias y ausencia de rutas local
 - [Vincular la identidad existente](skills/lift-content-production/references/identidad-existente.md)
 - [Diseño y movimiento](skills/lift-content-production/references/diseno-y-movimiento.md)
 - [Aplicación a problemas de trabajo](skills/lift-content-production/references/aplicacion-y-ejemplos.md)
+- [Caso anotado: VAM y acciones de juego](skills/lift-content-production/references/caso-vam.md)
+- [Caso anotado: RSI/DRI y componentes del puntaje](skills/lift-content-production/references/caso-rsi-dri.md)
 - [Validación de Nahuel](skills/lift-content-production/references/validacion.md)
 
 Repositorio de trabajo del equipo LIFT. No subir registros privados de atletas, credenciales, conversaciones o archivos ajenos a la producción de esta skill.

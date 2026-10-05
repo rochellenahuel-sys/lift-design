@@ -11,18 +11,18 @@ Leer al transformar un tema en una pregunta profesional. Estos ejemplos muestran
 
 No suponer que un profesional necesita automáticamente clustering o que un amateur no puede medir saltos. La aplicación depende del problema y los recursos.
 
-## Secuencia de referencia
+## Casos completos y anotados
 
-En RSI/DRI, interpretar el puntaje de una evaluación:
+Elegir el caso por el problema de comunicación, además de por el tema. Cada uno explica la fuente, el enfoque elegido, el aporte de cada diapositiva y las decisiones visuales. Consultar solo el pertinente:
 
-- Abrir con dos saltos de igual RSI y componentes distintos.
-- Definir altura y contacto antes de operar con el cociente.
-- Mostrar qué agrega la caída y qué variables usa DRI.
-- Separar efecto matemático de cambiar una variable de interpretación de una mejora.
-- Volver a los casos originales conservando valores y escalas.
-- Cerrar con puntaje, componentes y protocolo.
+| Caso | Cuándo leerlo | Qué permite calibrar |
+| --- | --- | --- |
+| [VAM: del test a una acción de juego](caso-vam.md) | La pieza debe relacionar una métrica con lo que ocurre en el campo. | Construir un hook, representar una acción reconocible, mostrar velocidad y evitar repetir la misma conclusión. |
+| [RSI/DRI: del puntaje a sus componentes](caso-rsi-dri.md) | La pieza compara índices, explica una fórmula o cambia la ponderación de variables. | Definir términos, separar mecanismo matemático de interpretación y volver a la comparación inicial con nueva comprensión. |
 
-No imponer ese recorrido a todo tema. En VAM puede servir una acción de juego; en LAB, la utilidad del encuentro; en BUILDERS, problema y función observable.
+Los archivos y versiones citados son referencias dentro de la carpeta de identidad existente, no dependencias incluidas en este repositorio. Si una versión no está disponible, usar el razonamiento documentado y localizar su equivalente vigente; no inventar que se revisaron medios ausentes. Los ejemplos no sustituyen las reglas actuales de [diseño y movimiento](diseno-y-movimiento.md) ni la validación de Nahuel.
+
+Al adaptar, identificar qué relación sirve al nuevo encargo y qué elementos son propios del ejemplo. Ni sus cantidades de diapositivas ni sus duraciones son cuotas. En LAB puede importar la utilidad del encuentro; en BUILDERS, el problema y una función observable.
 
 ## Comprobar aplicación
 

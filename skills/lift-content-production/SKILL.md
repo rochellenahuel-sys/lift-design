@@ -5,7 +5,7 @@ description: Crear, editar y revisar contenido de Comunidad LIFT a partir de blo
 
 # LIFT · Producción de contenido
 
-Versión 1.0.0 · 5 de octubre de 2026
+Versión 1.0.1 · 5 de octubre de 2026
 
 Estas instrucciones gobiernan la producción de contenido de LIFT. Aplicarlas al encargo recibido para entregar una pieza terminada, fiel a su fuente y vinculada con una situación profesional comprensible.
 
@@ -84,7 +84,7 @@ Evaluar la aplicación con recursos acotados y con registros más completos. Ele
 - Con registros completos, explicar calidad, protocolo, referencia y contexto. La cantidad de datos no prueba su utilidad.
 - No convertir una ilustración en prescripción individual ni conclusión universal sobre un deporte.
 
-Consultar [aplicación y ejemplos](references/aplicacion-y-ejemplos.md) al elegir el problema. Son referencias de razonamiento, no conclusiones para copiar.
+Consultar [aplicación y ejemplos](references/aplicacion-y-ejemplos.md) al elegir el problema. Allí se enlazan casos anotados de VAM y RSI/DRI: leer el pertinente para calibrar enfoque, composición y movimiento. Son referencias de razonamiento, no conclusiones ni secuencias obligatorias para copiar.
 
 ### Fidelidad y evidencia
 
