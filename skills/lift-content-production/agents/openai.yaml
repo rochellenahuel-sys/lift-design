@@ -1,0 +1,4 @@
+interface:
+  display_name: "LIFT · Producción de contenido"
+  short_description: "Voz, diseño y criterio aplicado para contenidos LIFT"
+  default_prompt: "Usá $lift-content-production para transformar este blog en un carrusel LIFT y dejar la versión final para validación de Nahuel."
