@@ -2,7 +2,7 @@
 
 Skill operativa para producir contenido de Comunidad LIFT: voz, cultura, aplicación a problemas reales, diseño, animación y validación editorial de Nahuel.
 
-**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.2.0**.
+**Entrada principal:** [SKILL.md](skills/lift-content-production/SKILL.md). Versión estable: **1.3.0**.
 
 ## Usar en el Codex de Leandro
 
@@ -34,6 +34,8 @@ Si el entorno todavía no descubre la skill, se puede indicar la ruta al `SKILL.
 
 La skill son instrucciones para el agente. No instala renderizadores, no concede accesos y no constituye por sí sola un bloqueo técnico dentro de una herramienta externa de publicación.
 
+Incluye una [receta ejecutable de calibración](skills/lift-content-production/references/receta-de-produccion.md): produce un PNG y un MP4 con los maestros de la carpeta de identidad. Requiere Node, Canvas y FFmpeg disponibles; detecta faltantes, no instala dependencias ni sustituye fuentes o logos. El ejemplo no es un generador universal de carruseles.
+
 ## Actualizaciones compartidas
 
 `main` contiene la versión integrada del trabajo. Las versiones entregables se identifican con etiquetas `vX.Y.Z` y su entrada en [CHANGELOG.md](CHANGELOG.md).
@@ -62,6 +64,14 @@ python3 scripts/validate.py
 
 El control comprueba estructura, versión, referencias y ausencia de rutas locales accidentales. No certifica la calidad editorial de una pieza.
 
+Para generar el ZIP completo de la skill, incluidos los scripts y datos de la receta:
+
+```sh
+python3 scripts/package.py
+```
+
+El paquete queda en `dist/`; conserva los recursos de marca externos. El empaquetador ejecuta el control anterior y coteja los archivos del ZIP con las fuentes.
+
 ## Contenido
 
 - [Skill](skills/lift-content-production/SKILL.md)
@@ -69,6 +79,7 @@ El control comprueba estructura, versión, referencias y ausencia de rutas local
 - [Diseño y movimiento](skills/lift-content-production/references/diseno-y-movimiento.md)
 - [Aplicación a problemas de trabajo](skills/lift-content-production/references/aplicacion-y-ejemplos.md)
 - [Comprensión, diseño y revisión](skills/lift-content-production/references/comprension-y-secuencia.md)
+- [Receta ejecutable de producción](skills/lift-content-production/references/receta-de-produccion.md)
 - [Caso anotado: VAM y acciones de juego](skills/lift-content-production/references/caso-vam.md)
 - [Caso anotado: RSI/DRI y componentes del puntaje](skills/lift-content-production/references/caso-rsi-dri.md)
 - [Registro de decisiones y correcciones](skills/lift-content-production/references/decisiones-editoriales.md)

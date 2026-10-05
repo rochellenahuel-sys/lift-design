@@ -61,6 +61,7 @@ Las rutas de manual y carruseles se resuelven desde `identity_root`. Los enlaces
 - **Motivo / base:** Nahuel pidió consistencia y aprovechar el ancho disponible. El énfasis se construye con composición, separación y color, sin alterar la identidad de una palabra.
 - **Aplicar / comprobar:** al crear o editar títulos, medir la frase completa y revisar estilos de cada palabra. Editar o repartir si no cabe; no reducir automáticamente la fuente. Las medidas actuales están en [Tipografía](diseno-y-movimiento.md#tipografía).
 - **Evidencia:** `manual-de-marca/Manual-de-marca-y-contenido-LIFT.md`, «TODOS LOS TÍTULOS: 96» y «REPARTIR EL ESPACIO»; antecedentes de Frenado v7/v8. Los tamaños numéricos provienen de la especificación adoptada, no de una nueva decisión en este registro.
+- **Comprobación en 1.3.0:** el PNG de la [receta ejecutable](receta-de-produccion.md) mostró un cuadrado en lugar de un símbolo matemático, aunque la fuente se había cargado y el archivo tenía dimensiones correctas. Se usó `t`, definido como duración, manteniendo la tipografía y el significado; se volvió a inspeccionar el PNG. Es una aplicación local del control de glifos y una razón concreta para revisar archivos renderizados, no solo configuración. No acredita aprobación editorial del ejemplo.
 
 ### D002
 

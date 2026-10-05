@@ -1,5 +1,14 @@
 # Cambios
 
+## 1.3.0 · 2026-10-05
+
+- Receta ejecutable con una escena de lectura y una comparación animada de impulso, usando los maestros externos de LIFT.
+- Entradas, renderer y exportación separados; comprobación de recursos y dependencias sin instalaciones ni sustituciones automáticas.
+- PNG y MP4, visor, fotogramas extraídos del video y vistas a 360 px para revisión.
+- Registro de recursos, versiones y hashes; decodificación completa y comprobación de características del MP4 real.
+- Reproducción desde una copia aislada de la skill y distinción entre comprobación técnica, revisión visual y aprobación editorial.
+- Corrección documentada de un glifo ausente detectado en el PNG del ejemplo; preservación de la tipografía y el significado de la fórmula.
+
 ## 1.2.0 · 2026-10-05
 
 - Ficha editorial con lector, conocimientos de partida, pregunta de comprensión y respuesta esperada, reutilizando los campos existentes.

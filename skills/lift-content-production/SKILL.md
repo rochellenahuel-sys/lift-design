@@ -5,7 +5,7 @@ description: Crear, editar y revisar contenido de Comunidad LIFT a partir de blo
 
 # LIFT · Producción de contenido
 
-Versión 1.2.0 · 5 de octubre de 2026
+Versión 1.3.0 · 5 de octubre de 2026
 
 Estas instrucciones gobiernan la producción de contenido de LIFT. Aplicarlas al encargo recibido para entregar una pieza terminada, fiel a su fuente y vinculada con una situación profesional comprensible.
 
@@ -121,6 +121,8 @@ Identificar qué debe observar el lector para responder la pregunta de comprensi
 ## 5. Diseñar y animar
 
 Antes de crear o editar medios, leer y aplicar [diseño y movimiento](references/diseno-y-movimiento.md): recursos exactos, medidas, espacios, animación y exportación.
+
+Para preparar un entorno de producción o comprobar una implementación, usar la [receta ejecutable](references/receta-de-produccion.md): genera una escena de lectura y una comparación animada con los maestros existentes, y verifica los archivos exportados. Reutilizar su separación entre datos, dibujo, exportación y revisión cuando sirva al encargo. No ejecutar esa calibración en cada corrección ni convertir su modelo, motor o número de escenas en una plantilla obligatoria.
 
 Invariantes:
 

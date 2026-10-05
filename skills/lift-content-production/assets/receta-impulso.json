@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "calibracion-impulso-rectangular",
+  "kind": "constructed-didactic-example",
+  "model": {
+    "name": "Impulso de una fuerza neta constante",
+    "equation": "J = integral(F_neta dt) = F_neta × duración",
+    "signal": "rectangular",
+    "forceQuantity": "net-force",
+    "direction": "Mismo eje y sentido positivo en ambos casos.",
+    "units": { "force": "N", "time": "s", "impulse": "N·s" },
+    "domains": { "time": [0, 0.4], "force": [0, 600] },
+    "cases": [
+      { "id": "A", "force": 500, "duration": 0.2, "expectedImpulse": 100, "encoding": "red-solid" },
+      { "id": "B", "force": 250, "duration": 0.4, "expectedImpulse": 100, "encoding": "neutral-dashed" }
+    ],
+    "assumptions": [
+      "Valores elegidos para explicar un modelo: no son registros de atletas.",
+      "La fuerza neta es constante dentro de cada intervalo y cero fuera de él.",
+      "El impulso se calcula respecto del mismo eje y sentido positivo.",
+      "Los dos paneles comparten dominios, escala y dimensiones de trazado.",
+      "El área rectangular representa el impulso, con unidades N·s."
+    ],
+    "limits": [
+      "El modelo no mide un frenado real.",
+      "No caracteriza una curva de fuerza real, ni su forma o sus fluctuaciones.",
+      "No permite elegir un mejor atleta ni inferir rendimiento, técnica o riesgo.",
+      "No se calcula un cambio de velocidad: no se especifica masa ni estado inicial."
+    ]
+  },
+  "copy": {
+    "lectura": {
+      "title": "EL ÁREA ES IMPULSO",
+      "body": "Con fuerza neta constante, el impulso es fuerza × tiempo.",
+      "formula": "J = F × t",
+      "definitions": [
+        { "symbol": "J", "meaning": "Impulso", "unit": "N·s" },
+        { "symbol": "F", "meaning": "Fuerza neta", "unit": "N" },
+        { "symbol": "t", "meaning": "Duración", "unit": "s" }
+      ],
+      "bridge": "Compará dos fuerzas y duraciones que dan el mismo impulso."
+    },
+    "comparacion": {
+      "title": "MISMO IMPULSO",
+      "instructions": [
+        "Mirá el área bajo la fuerza neta.",
+        "B: menos fuerza durante más tiempo.",
+        "Compará fuerza × tiempo.",
+        "La misma área da el mismo impulso."
+      ],
+      "conclusion": "Distinta fuerza y duración.",
+      "conclusionDetail": "El impulso es 100 N·s en ambos casos."
+    },
+    "limitLabel": "LÍMITE DEL MODELO",
+    "limit": "No mide un frenado real."
+  },
+  "animation": {
+    "timeUnit": "s",
+    "duration": 15,
+    "fps": 30,
+    "titleHoldUntil": 1.7,
+    "titleFade": [1.7, 1.95],
+    "reframe": [1.95, 2.2],
+    "traceA": [0, 1.4],
+    "fillA": [1.4, 1.7],
+    "traceB": [2.4, 4],
+    "fillB": [4, 4.3],
+    "calculations": [4.5, 4.8],
+    "instructionChanges": [2.25, 4.3, 6.3],
+    "instructionFade": 0.2,
+    "conclusion": [6.3, 6.55],
+    "stableFrom": 6.55,
+    "reframeOffsetY": -150,
+    "mechanism": "Contorno por longitud; relleno después de cerrar cada rectángulo. Reencuadre conjunto sin cambiar los dominios.",
+    "timeInterpretation": "El tiempo de reproducción construye el dibujo y no simula el paso del tiempo físico. Los ejes conservan 0,2 s y 0,4 s.",
+    "samples": [0, 0.2, 0.5, 1, 1.4, 1.7, 1.825, 1.95, 2.075, 2.2, 2.4, 3.2, 4, 4.3, 4.65, 4.8, 6.3, 6.55, 12, 14.9666666667]
+  },
+  "review": {
+    "status": "PENDIENTE DE VALIDACIÓN DE NAHUEL",
+    "use": "Receta de calibración visual. No autoriza publicación.",
+    "requiredChecks": ["lectura a 360 px", "movimiento perceptible a 0,2 s", "transiciones", "cierre estable", "mismos ejes", "fórmulas y unidades", "decodificación MP4 completa"]
+  }
+}
